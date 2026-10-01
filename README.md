@@ -17,7 +17,8 @@ NT101.R11.2/
 │   ├── Lab1_README.md
 │   ├── Lab1_Group16_Report.pdf
 │   ├── Lab1_Group16_Resource.zip
-│   ├── Lab1_notebook.ipynb
+│   ├── task2_1_caesar.ipynb
+│   ├── task2_4_playfair.ipynb
 ├── Lab2/
 │   ├── ...
 ├── Lab3/
