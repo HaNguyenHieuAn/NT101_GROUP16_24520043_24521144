@@ -1,0 +1,29 @@
+# Python / Jupyter cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.ipython/
+.env
+.env.*
+.venv/
+venv/
+
+# IDE and local OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Reports, screenshots and temporary Office files live outside this repo
+*.doc
+*.docx
+*.pdf
+*.zip
+~$*
+Lab1/task2_3_report_images/
+
+# Generated Task 2.3 artifacts
+Lab1/task2_3_data/validation_results.json
+Lab1/task2_3_data/function_explanations_update.json
+Lab1/task2_3_data/task2_2_best_plaintext.txt

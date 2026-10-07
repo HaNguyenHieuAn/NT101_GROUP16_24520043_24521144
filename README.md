@@ -1,55 +1,29 @@
-# Môn học: An toàn mạng máy tính (NT101)
+# NT101 — An toàn mạng máy tính
 
-## 👤 Thông tin sinh viên
-- Hà Nguyễn Hiếu An: 24520043
-- Nguyễn Hữu Nghĩa:  24521144
-- **Lớp:** NT101.R11.2
-- **Trường:** Đại học Công nghệ Thông tin - ĐHQG-HCM (UIT)
+**Nhóm 16 · NT101.R11.2 · UIT**
+- Hà Nguyễn Hiếu An — 24520043
+- Nguyễn Hữu Nghĩa — 24521144
 
----
+## Lab 1 — Mật mã học cổ điển
 
-## 📂 Cấu trúc Repository
-Repository này là nơi lưu trữ và tổng hợp toàn bộ các bài thực hành (Lab) trong khuôn khổ môn học An toàn mạng máy tính. Cấu trúc mã nguồn được phân chia rõ ràng theo từng tuần/nội dung học như sau:
-```text
-NT101.R11.2/
-├── README.md
-├── Lab1/
-│   ├── Lab1_README.md
-│   ├── Lab1_Group16_Report.pdf
-│   ├── Lab1_Group16_Resource.zip
-│   ├── task2_1_caesar.ipynb
-│   ├── task2_4_playfair.ipynb
-├── Lab2/
-│   ├── ...
-├── Lab3/
-│   ├── ...
-├── Lab4/
-│   ├── ...
-├── Lab5/
-│   ├── ...
-└── Lab6/
+| Task | Nội dung | Notebook |
+|---|---|---|
+| 2.1 | Caesar | [task2_1_caesar.ipynb](Lab1/task2_1_caesar.ipynb) |
+| 2.2 | Phân tích tần suất thay thế đơn bảng | [Lab1_Task2.2.ipynb](Lab1/Lab1_Task2.2.ipynb) |
+| 2.3 | Tự động phá mã thay thế đơn bảng | [task2_3_auto_mono.ipynb](Lab1/task2_3_auto_mono.ipynb) |
+| 2.4 | Playfair | [task2_4_playfair.ipynb](Lab1/task2_4_playfair.ipynb) |
+| 2.5 | Vigenère | [task2_5_vigenere.ipynb](Lab1/task2_5_vigenere.ipynb) |
+| 2.6 | Thám mã Vigenère | [Lab1_Task2.6.ipynb](Lab1/Lab1_Task2.6.ipynb) |
+| 2.7 | Affine | [Lab1_Task2.7.ipynb](Lab1/Lab1_Task2.7.ipynb) |
+
+## Chạy notebook
+
+Cần Python 3 và VS Code Python/Jupyter hoặc JupyterLab:
+
+```powershell
+python -m pip install jupyter ipykernel
 ```
-*   📂 **[Lab1](./Lab1):** Classical Cryptography (Mật mã học cổ điển)
-*   📂 **[Lab2](./Lab2):** Modern Cryptography (Mật mã học hiện đại)
-*   📂 **[Lab3](./Lab3):** Virtual Machine & Kali Linux (Máy ảo và Kali Linux)
-*   📂 **[Lab4](./Lab4):** Hash Functions and Digital
-Certificates (Hàm băm và Chứng chỉ số)
-*   📂 **[Lab5](./Lab5):** Vulnerability Scanning (Quét lỗ hổng bảo mật)
-*   📂 **[Lab6](./Lab6):** Linux Firewall Exploration (Khai thác tường lửa trong Linux)
 
-*(Lưu ý: Mỗi thư mục Lab đều có tệp `README.md` riêng biệt để mô tả chi tiết mục tiêu, nội dung chính và hướng dẫn cài đặt/chạy chương trình cụ thể cho bài Lab đó).*
+Mở notebook, chọn kernel Python 3 và chạy các cell từ trên xuống. Task 2.2 chạy từ thư mục `Lab1`; giữ `cipher2.2.txt` và `task2_3_data/` để chạy offline. Một số cell chờ nhập liệu.
 
----
-
-## 🛠️ Công cụ & Công nghệ sử dụng chung
-Trong suốt môn học, các bài Lab sử dụng hệ thống công cụ và môi trường bao gồm:
-- **Hệ điều hành giả lập/Thử nghiệm:** Kali Linux, Ubuntu Server.
-- **Công cụ giám sát & Kiểm thử:** Wireshark, Nmap, Metasploit, Snort.
-- **Ngôn ngữ lập trình:** Python 3.x / C / Bash Script.
-
----
-
-## 📝 Hướng dẫn xem báo cáo và chạy mã nguồn
-1. Nhấp trực tiếp vào liên kết của từng thư mục Lab ở phần **Cấu trúc Repository** phía trên để di chuyển nhanh đến bài Lab cần xem.
-2. Đọc kỹ file hướng dẫn tại mỗi thư mục để chuẩn bị môi trường chạy bài tập (như cài đặt thư viện cần thiết hoặc cấu hình cổng mạng).
-3. Mọi thắc mắc góp ý hoặc phản hồi về bài làm vui lòng liên hệ qua email sinh viên: `24520043@gm.uit.edu.vn`.
+Chi tiết: [Hướng dẫn Lab 1](Lab1/Lab1_README.md). Repo chỉ lưu notebook, dữ liệu cần thiết và cấu hình Git; báo cáo nộp riêng. Các mật mã cổ điển chỉ phục vụ học tập, không dùng bảo vệ dữ liệu thực tế.
