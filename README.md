@@ -8,11 +8,11 @@
 
 | Task | Nội dung | Notebook |
 |---|---|---|
-| 2.1 | Caesar | [task2_1_caesar.ipynb](Lab1/task2_1_caesar.ipynb) |
+| 2.1 | Caesar | [Lab1_Task2.1.ipynb](Lab1/Lab1_Task2.1.ipynb) |
 | 2.2 | Phân tích tần suất thay thế đơn bảng | [Lab1_Task2.2.ipynb](Lab1/Lab1_Task2.2.ipynb) |
-| 2.3 | Tự động phá mã thay thế đơn bảng | [task2_3_auto_mono.ipynb](Lab1/task2_3_auto_mono.ipynb) |
-| 2.4 | Playfair | [task2_4_playfair.ipynb](Lab1/task2_4_playfair.ipynb) |
-| 2.5 | Vigenère | [task2_5_vigenere.ipynb](Lab1/task2_5_vigenere.ipynb) |
+| 2.3 | Tự động phá mã thay thế đơn bảng | [Lab1_Task2.3.ipynb](Lab1/Lab1_Task2.3.ipynb) |
+| 2.4 | Playfair | [Lab1_Task2.4.ipynb](Lab1/Lab1_Task2.4.ipynb) |
+| 2.5 | Vigenère | [Lab1_Task2.5.ipynb](Lab1/Lab1_Task2.5.ipynb) |
 | 2.6 | Thám mã Vigenère | [Lab1_Task2.6.ipynb](Lab1/Lab1_Task2.6.ipynb) |
 | 2.7 | Affine | [Lab1_Task2.7.ipynb](Lab1/Lab1_Task2.7.ipynb) |
 

@@ -30,10 +30,10 @@ Bài thực hành giúp làm quen với các khái niệm nền tảng trong m�
 ```text
 Lab1/
 ├── Lab1_README.md
-├── task2_1_caesar.ipynb        # Caesar
-├── task2_3_auto_mono.ipynb     # Tự động giải mã thay thế đơn bảng
-├── task2_4_playfair.ipynb      # Playfair
-├── task2_5_vigenere.ipynb      # Vigenère
+├── Lab1_Task2.1.ipynb         # Caesar
+├── Lab1_Task2.3.ipynb         # Tự động giải mã thay thế đơn bảng
+├── Lab1_Task2.4.ipynb         # Playfair
+├── Lab1_Task2.5.ipynb         # Vigenère
 ├── Lab1_Task2.2.ipynb         # Phân tích tần suất thay thế đơn bảng
 ├── Lab1_Task2.6.ipynb         # Thám mã Vigenère
 ├── Lab1_Task2.7.ipynb         # Affine
@@ -51,9 +51,9 @@ Lab1/
 |---|---|---|
 | 2.1 | Caesar: mã hóa, giải mã, tự chọn khóa bằng brute-force | Có trong notebook |
 | 2.2 | Phân tích tần suất thay thế đơn bảng | Có trong `Lab1_Task2.2.ipynb` |
-| 2.3 | Tự động phá mã thay thế đơn bảng | Có trong `task2_3_auto_mono.ipynb` |
+| 2.3 | Tự động phá mã thay thế đơn bảng | Có trong `Lab1_Task2.3.ipynb` |
 | 2.4 | Playfair: mã hóa, giải mã, hiển thị ma trận 5 × 5 | Có trong notebook |
-| 2.5 | Vigenère: mã hóa và giải mã | Có trong `task2_5_vigenere.ipynb` |
+| 2.5 | Vigenère: mã hóa và giải mã | Có trong `Lab1_Task2.5.ipynb` |
 | 2.6 | Phá mã Vigenère | Có trong `Lab1_Task2.6.ipynb` |
 | 2.7 | Affine | Có trong `Lab1_Task2.7.ipynb` |
 
@@ -80,7 +80,7 @@ Mã thuật toán chỉ dùng thư viện chuẩn Python. Caesar/Playfair chứa
 5. Task 2.2: chạy từ thư mục `Lab1`, giữ `cipher2.2.txt` bên cạnh notebook.
 6. Task 2.6: nhập ciphertext khi được hỏi. Task 2.7: chọn `1` mã hóa, `2` giải mã, `3` chạy ví dụ; `0` thoát.
 
-Mỗi notebook gồm một nhiệm vụ với các cell lý thuyết, hàm xử lý, ví dụ, nhập liệu, kiểm thử và nhận xét. Tạo notebook riêng theo tên `task2_<số>_<thuật_toán>.ipynb` cho các bài khác.
+Mỗi notebook gồm một nhiệm vụ với các cell lý thuyết, hàm xử lý, ví dụ, nhập liệu, kiểm thử và nhận xét. Tên notebook thống nhất theo mẫu `Lab1_Task2.<số>.ipynb`.
 
 ### Quy ước và giới hạn
 
@@ -92,7 +92,7 @@ Mỗi notebook gồm một nhiệm vụ với các cell lý thuyết, hàm xử 
 
 ## Task 2.3 — Tự động giải mã thay thế đơn bảng
 
-- Mở `task2_3_auto_mono.ipynb`, chọn Python 3, Run All. Notebook độc lập, mã dùng thư viện chuẩn; cần giữ thư mục `task2_3_data` đi kèm. Không cần mạng.
+- Mở `Lab1_Task2.3.ipynb`, chọn Python 3, Run All. Notebook độc lập, mã dùng thư viện chuẩn; cần giữ thư mục `task2_3_data` đi kèm. Không cần mạng.
 - `MONO_INTERACTIVE = False` mặc định. Đổi `True`, chạy riêng cell nhập liệu: `1` nhập ciphertext, `2` đọc file UTF-8. Ví dụ file: `task2_3_data/cipher2_2.txt` khi chạy từ Lab1.
 - Có thể tăng `restarts`, `iterations`, đổi `seed` để tìm thêm; không bảo đảm đúng mọi văn bản, đặc biệt chuỗi ngắn hoặc không phải tiếng Anh.
 - Phương pháp: điểm quadgram + tần suất từ, simulated annealing nhiều lần khởi động, hill-climbing. IC chỉ hiển thị, không dùng chọn khóa.
@@ -100,9 +100,3 @@ Mỗi notebook gồm một nhiệm vụ với các cell lý thuyết, hàm xử 
 - Script tạo báo cáo/kiểm chứng, kết quả JSON sinh ra và Word/PDF đã chuyển ngoài repository; không cần chúng để chạy notebook.
 - Ciphertext Task 2.2 và bản rõ tham chiếu trong Word không nhất quán ở 3 vị trí Q/X. Kết quả tự động khớp 4575/4578 chữ (99,9345%); không sửa tay bản rõ.
 - Nguồn mô hình và SHA-256: `task2_3_data/sources.json`. Quadgram lấy từ 3 tác phẩm Gutenberg; mô hình từ lấy từ Peter Norvig, không dùng bản rõ đề để huấn luyện.
-
-## Báo cáo chi tiết
-
-Notebook chứa phương pháp, kết quả chạy và kiểm thử để phục vụ viết báo cáo. Repository không lưu Word/PDF hoặc ảnh báo cáo. Báo cáo nộp riêng theo yêu cầu giảng viên; chỉ nộp mã nguồn không thay thế phần báo cáo.
-
-Không đưa PDF đề vào kho mã nguồn. Tuân thủ yêu cầu giảng viên về phạm vi chia sẻ tài liệu và bài làm.
