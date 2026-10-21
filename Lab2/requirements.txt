@@ -1,0 +1,2 @@
+# AES modes, including KW/KWP (introduced in PyCryptodome 3.23).
+pycryptodome>=3.23,<4
