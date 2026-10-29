@@ -31,6 +31,14 @@ python -m pip install -r "Lab2/requirements.txt"
 
 Lab2 dùng Python 3.10 trở lên; chọn kernel đã cài PyCryptodome rồi **Run All**. Nhập liệu mặc định tắt, không cần file dữ liệu hay mạng khi chạy. Khóa/IV/nonce cố định chỉ dùng thí nghiệm, không dùng cho dữ liệu thực tế.
 
+## Lab 3 — Hàm băm và chữ ký số
+
+| Task | Nội dung | Notebook |
+|---|---|---|
+| 2.1 | RSA: sinh khóa, mã hóa/giải mã số và chuỗi, Base64, giải bốn bản mã đề | [Lab3_Task2.1.ipynb](Lab3/Lab3_Task2.1.ipynb) |
+
+Chỉ thực hiện Task 2.1. Notebook độc lập, dùng thư viện chuẩn Python 3.10 trở lên, có đầu ra và 16 kiểm thử đạt; nhập liệu mặc định tắt. Hướng dẫn và quy ước dữ liệu: [Lab 3](Lab3/README.md).
+
 ## Chạy notebook
 
 Cần Python 3 và VS Code Python/Jupyter hoặc JupyterLab:
